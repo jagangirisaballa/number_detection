@@ -9,7 +9,7 @@
 #requests are objects that flask handles (get set post, etc)
 from __future__ import print_function
 import keras
-import tensorflow.compat.v1 as tf
+import tensorflow as tf
 from flask import Flask, render_template,request
 #scientific computing library for saving, reading, and resizing images
 from scipy.misc import imsave, imread, imresize
